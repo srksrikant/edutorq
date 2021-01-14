@@ -58,8 +58,26 @@ One-One Career Counseling and Mentorship, Personalized Trainings, Mock Interview
          </div>
          <div className='text-center'>
          <button className="logreg-button " onClick>
-                    <span style={{fontSize:"1.3rem"}}><b>Create Your Profile Now</b></span>      
+                    <span style={{fontSize:"1.1rem"}}><b>Create Your Profile Now</b></span>      
         </button>
+         </div>
+         <div className='sub-container py-5'>
+             <div className='text-center'>
+             <h6 style={{fontSize:"2rem "}} >Unlock The Premium features</h6>
+             <p></p>
+             </div>
+         </div>
+         <div className='sub-container'>
+            <div className='free-membership'>
+               <div className='free-head'>
+               <p>Free Membership</p>
+               </div>
+            </div>
+            <div className='premium-membership'>
+            <div className='pre-head'>
+               <p>Premium Membership</p>
+               </div>
+            </div>
          </div>
       </div>
      

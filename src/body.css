@@ -11,6 +11,9 @@ p{
 .sub-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
  .left-container{
      padding: 0;
@@ -70,4 +73,25 @@ margin-left: 70px !important;
     font-weight: 450 ;
     font-size: 1.3rem !important;
     padding: 0% 10%;
+}
+.free-membership , .premium-membership{
+    padding: 10px 55px;
+    box-shadow: 0px 1px 3px 1px;
+    margin: 0% 10%;
+    background: linear-gradient(90deg, rgba(26,34,117,1) 0%, rgba(22,61,157,1) 35%, rgba(21,199,207,1) 100%);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 20px;
+    text-align: center;
+}
+.free-head , .pre-head{
+    padding: 5px;
+}
+@media screen and (max-width:800px){
+    .free-membership , .premium-membership{
+        font-size: 0.9remrem;
+        font-weight: 500; 
+        padding: 10px 10px;
+    }
 }
