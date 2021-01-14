@@ -1,0 +1,31 @@
+.footer-container{
+    padding: 2% 5%;
+}
+.list-unstyled{
+    padding: 5px 0px;
+}
+.list-unstyled a{
+    color: rgba(43, 42, 37, 0.986) !important;
+}
+.title{
+    color:#008cc8 !important;
+}
+.social-icon-footer{
+    padding : 10px 15px !important;
+    font-size: 15px !important;
+    color: #fff;
+    margin: 0px 10px !important;
+    background: linear-gradient(to left,#28d2af,#008cc8);
+    border-radius: 50% !important;
+}
+.social-icon-footer:hover{
+    background-color: white;
+    background: white;
+    color:#008cc8 ;
+    box-shadow: 0 1px 2px 2px #008cc8 !important;
+    cursor: pointer;
+}
+.social-icon-footer:focus{
+    border: none;
+    outline:none;
+}

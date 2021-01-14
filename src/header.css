@@ -1,0 +1,24 @@
+.logo-text{
+    font-size: 2rem;
+    font-weight: 800;
+letter-spacing: 2px;
+color: #008cc8 !important;
+/* color: linear-gradient(90deg, rgba(26,34,117,1) 0%, rgba(22,61,157,1) 35%, rgba(21,199,207,1) 100%); */
+margin-left: 15px;
+}
+.nav-bar-text{
+    font-weight: 1rem !important;
+    color: black !important;
+    margin-left: 30px !important;
+}
+.log-in-btn , .sign-up-btn{
+    font-weight: bold;
+    color:#008cc8 !important;
+    text-transform: uppercase !important;
+}
+.logreg-button,.head-btn{
+    padding:  10px 35px !important;
+}
+.nav-head{
+    padding: 15px 30px !important;
+}

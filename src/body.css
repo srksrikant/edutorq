@@ -1,0 +1,39 @@
+.main-container{
+    padding:4% 8%;
+    display: flex;
+    flex-direction: row;
+}
+ .left-container{
+     padding-top: 8%;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-container{
+    padding-top: 0 !important;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:800px){
+   .left-container{
+        width: 100%;
+        padding: 1% 1%;
+        flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .right-container{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important; 
+        width: auto !important;
+    }
+}
