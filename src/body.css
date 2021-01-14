@@ -1,10 +1,20 @@
+
 .main-container{
     padding:4% 8%;
+   
+}
+p{
+    font-size: 1.1rem !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important; 
+
+}
+.sub-container{
     display: flex;
     flex-direction: row;
 }
  .left-container{
-     padding-top: 8%;
+     padding: 0;
+     padding-top: 8% !important;
     height: 100%;
     width: 40%;
     display: flex;
@@ -13,6 +23,7 @@
     flex-direction: column;
 }
 .right-container{
+    padding: 0 ;
     padding-top: 0 !important;
     height: 100%;
     width: 60%;
@@ -21,13 +32,16 @@
     align-items: center;
     flex-direction: column;
 }
+.program-img{
+margin-left: 70px !important;
+}
 @media screen and (max-width:800px){
    .left-container{
         width: 100%;
         padding: 1% 1%;
         flex-direction: column;
     }
-    .main-container{
+    .sub-container{
         flex-direction: column;
     }
     .right-container{
@@ -36,4 +50,24 @@
         align-items: center !important; 
         width: auto !important;
     }
+    .program-img{
+        margin-left: 0 !important;
+    }
+}
+.what-is-edu{
+    font-size: 2.5rem !important;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.what-is-edu .text-color{
+    color: #008cc8;
+}
+ .para-text{
+    color: #008cc8 !important;
+}
+
+.para{
+    font-weight: 450 ;
+    font-size: 1.3rem !important;
+    padding: 0% 10%;
 }
